@@ -28,14 +28,14 @@ export const Home: React.FC = () => {
           <div className="space-y-8 sm:space-y-8 order-2 lg:order-1 pt-4">
             <div className="space-y-2 sm:space-y-4">
               <hr className="block sm:hidden my-6 border-t-2 border-gray-300 dark:border-gray-700" />
-              <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+              <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
                 <span className="font-normal text-foreground dark:text-foreground">Hello I'm</span>
-                <span className="font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-foreground dark:text-foreground">{siteConfig.name}.</span>
+                <span className="font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-foreground dark:text-foreground">{siteConfig.name}.</span>
               </div>
               <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
                 <span className="font-extrabold text-foreground dark:text-foreground">A Software Developer</span>
               </div>
-              <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+              <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
                 <span className="font-normal text-foreground dark:text-foreground">Based In</span>
                 <span className="font-bold text-foreground dark:text-foreground">{siteConfig.location}.</span>
               </div>
