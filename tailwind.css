@@ -1,0 +1,243 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --button-text-2-regular-font-family: "Sora", Helvetica;
+  --button-text-2-regular-font-size: 16px;
+  --button-text-2-regular-font-style: normal;
+  --button-text-2-regular-font-weight: 400;
+  --button-text-2-regular-letter-spacing: 0.32px;
+  --button-text-2-regular-line-height: 20px;
+  --button-text-2-semibold-font-family: "Sora", Helvetica;
+  --button-text-2-semibold-font-size: 16px;
+  --button-text-2-semibold-font-style: normal;
+  --button-text-2-semibold-font-weight: 600;
+  --button-text-2-semibold-letter-spacing: 0.32px;
+  --button-text-2-semibold-line-height: 20px;
+  --button-text-semibold-font-family: "Sora", Helvetica;
+  --button-text-semibold-font-size: 20px;
+  --button-text-semibold-font-style: normal;
+  --button-text-semibold-font-weight: 600;
+  --button-text-semibold-letter-spacing: 0.4px;
+  --button-text-semibold-line-height: 24px;
+  --display-text-m-extra-bold-font-family: "Sora", Helvetica;
+  --display-text-m-extra-bold-font-size: 28px;
+  --display-text-m-extra-bold-font-style: normal;
+  --display-text-m-extra-bold-font-weight: 800;
+  --display-text-m-extra-bold-letter-spacing: -0.5600000000000002px;
+  --display-text-m-extra-bold-line-height: 32px;
+  --display-text-m-regular-font-family: "Sora", Helvetica;
+  --display-text-m-regular-font-size: 28px;
+  --display-text-m-regular-font-style: normal;
+  --display-text-m-regular-font-weight: 400;
+  --display-text-m-regular-letter-spacing: -0.5600000000000002px;
+  --display-text-m-regular-line-height: 32px;
+  --displaytext-extra-bold-font-family: "Sora", Helvetica;
+  --displaytext-extra-bold-font-size: 48px;
+  --displaytext-extra-bold-font-style: normal;
+  --displaytext-extra-bold-font-weight: 800;
+  --displaytext-extra-bold-letter-spacing: -0.96px;
+  --displaytext-extra-bold-line-height: 56px;
+  --displaytext-regular-font-family: "Sora", Helvetica;
+  --displaytext-regular-font-size: 48px;
+  --displaytext-regular-font-style: normal;
+  --displaytext-regular-font-weight: 400;
+  --displaytext-regular-letter-spacing: -0.96px;
+  --displaytext-regular-line-height: 56px;
+  --gray-900: rgba(24, 24, 27, 1);
+  --heading-h2-bold-font-family: "Sora", Helvetica;
+  --heading-h2-bold-font-size: 32px;
+  --heading-h2-bold-font-style: normal;
+  --heading-h2-bold-font-weight: 700;
+  --heading-h2-bold-letter-spacing: -0.64px;
+  --heading-h2-bold-line-height: 40px;
+  --heading-h3-semibold-font-family: "Sora", Helvetica;
+  --heading-h3-semibold-font-size: 28px;
+  --heading-h3-semibold-font-style: normal;
+  --heading-h3-semibold-font-weight: 600;
+  --heading-h3-semibold-letter-spacing: -0.5600000000000002px;
+  --heading-h3-semibold-line-height: 32px;
+  --heading-h4-extra-bold-font-family: "Sora", Helvetica;
+  --heading-h4-extra-bold-font-size: 24px;
+  --heading-h4-extra-bold-font-style: normal;
+  --heading-h4-extra-bold-font-weight: 800;
+  --heading-h4-extra-bold-letter-spacing: -0.48px;
+  --heading-h4-extra-bold-line-height: 28px;
+  --heading-h4-semibold-font-family: "Sora", Helvetica;
+  --heading-h4-semibold-font-size: 24px;
+  --heading-h4-semibold-font-style: normal;
+  --heading-h4-semibold-font-weight: 600;
+  --heading-h4-semibold-letter-spacing: -0.48px;
+  --heading-h4-semibold-line-height: 28px;
+  --heading-h5-bold-font-family: "Sora", Helvetica;
+  --heading-h5-bold-font-size: 20px;
+  --heading-h5-bold-font-style: normal;
+  --heading-h5-bold-font-weight: 700;
+  --heading-h5-bold-letter-spacing: -0.4px;
+  --heading-h5-bold-line-height: 24px;
+  --heading-h5-extra-bold-font-family: "Sora", Helvetica;
+  --heading-h5-extra-bold-font-size: 20px;
+  --heading-h5-extra-bold-font-style: normal;
+  --heading-h5-extra-bold-font-weight: 800;
+  --heading-h5-extra-bold-letter-spacing: -0.4px;
+  --heading-h5-extra-bold-line-height: 24px;
+  --heading-h5-semibold-font-family: "Sora", Helvetica;
+  --heading-h5-semibold-font-size: 20px;
+  --heading-h5-semibold-font-style: normal;
+  --heading-h5-semibold-font-weight: 600;
+  --heading-h5-semibold-letter-spacing: -0.4px;
+  --heading-h5-semibold-line-height: 24px;
+  --heading-h6-regular-font-family: "Sora", Helvetica;
+  --heading-h6-regular-font-size: 16px;
+  --heading-h6-regular-font-style: normal;
+  --heading-h6-regular-font-weight: 400;
+  --heading-h6-regular-letter-spacing: -0.32px;
+  --heading-h6-regular-line-height: 20px;
+  --heading-h6-semibold-font-family: "Sora", Helvetica;
+  --heading-h6-semibold-font-size: 16px;
+  --heading-h6-semibold-font-style: normal;
+  --heading-h6-semibold-font-weight: 600;
+  --heading-h6-semibold-letter-spacing: -0.32px;
+  --heading-h6-semibold-line-height: 20px;
+  --outlined-extra-bold-font-family: "Sora", Helvetica;
+  --outlined-extra-bold-font-size: 48px;
+  --outlined-extra-bold-font-style: normal;
+  --outlined-extra-bold-font-weight: 800;
+  --outlined-extra-bold-letter-spacing: -0.96px;
+  --outlined-extra-bold-line-height: 56px;
+  --outlined-m-extra-bold-font-family: "Sora", Helvetica;
+  --outlined-m-extra-bold-font-size: 28px;
+  --outlined-m-extra-bold-font-style: normal;
+  --outlined-m-extra-bold-font-weight: 800;
+  --outlined-m-extra-bold-letter-spacing: -0.5600000000000002px;
+  --outlined-m-extra-bold-line-height: 32px;
+  --paragraph-p2-regular-font-family: "Sora", Helvetica;
+  --paragraph-p2-regular-font-size: 16px;
+  --paragraph-p2-regular-font-style: normal;
+  --paragraph-p2-regular-font-weight: 400;
+  --paragraph-p2-regular-letter-spacing: 0.32px;
+  --paragraph-p2-regular-line-height: 24px;
+  --paragraph-p3-semibold-font-family: "Sora", Helvetica;
+  --paragraph-p3-semibold-font-size: 12px;
+  --paragraph-p3-semibold-font-style: normal;
+  --paragraph-p3-semibold-font-weight: 600;
+  --paragraph-p3-semibold-letter-spacing: 0.24px;
+  --paragraph-p3-semibold-line-height: 20px;
+  --primaryblack: rgba(0, 0, 0, 1);
+  --primaryneutral: rgba(64, 64, 64, 1);
+  --primarywhite: rgba(255, 255, 255, 1);
+  --zinc-300: rgba(212, 212, 216, 1);
+  --zinc-500: rgba(113, 113, 122, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Smooth transitions for theme switching */
+  * {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-gray-800;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-400 dark:bg-gray-600 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-500 dark:bg-gray-500;
+  }
+}
