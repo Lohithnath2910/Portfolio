@@ -28,17 +28,16 @@ export const Home: React.FC = () => {
           <div className="space-y-8 sm:space-y-8 order-2 lg:order-1 pt-4">
             <div className="space-y-2 sm:space-y-4">
               <hr className="block sm:hidden my-6 border-t-2 border-gray-300 dark:border-gray-700" />
-              <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+              <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
                 <span className="font-normal text-foreground dark:text-foreground">Hello I'm</span>
-                <span className="font-extrabold text-foreground dark:text-foreground">{siteConfig.name}.</span>
+                <span className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-foreground dark:text-foreground">{siteConfig.name}.</span>
               </div>
-              <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
-                <span className="font-extrabold text-foreground dark:text-foreground">Software</span>
-                <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-black to-gray-600 dark:from-white dark:to-gray-300 [-webkit-text-stroke:2px_black] dark:[-webkit-text-stroke:1px_white]">Developer</span>
+              <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
+                <span className="font-extrabold text-foreground dark:text-foreground">A Software Developer</span>
               </div>
-              <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+              <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
                 <span className="font-normal text-foreground dark:text-foreground">Based In</span>
-                <span className="font-extrabold text-foreground dark:text-foreground">{siteConfig.location}.</span>
+                <span className="font-normal text-foreground dark:text-foreground">{siteConfig.location}.</span>
               </div>
             </div>
 
