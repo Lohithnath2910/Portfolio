@@ -24,9 +24,12 @@ export const Header: React.FC = () => {
           <div className="flex items-center justify-between h-14 sm:h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center">
-              <span className="text-lg sm:text-xl font-bold text-foreground dark:text-foreground">
-                My Space
+              <span className="text-sm sm:text-base lg:text-lg font-bold text-foreground dark:text-foreground tracking-tight relative px-2">
+                <span className="before:absolute before:inset-0 before:-z-10 before:rounded-lg before:bg-gradient-to-r before:from-blue-500 before:to-purple-500 before:blur-md before:opacity-20">
+                  ./dev/<span className="text-blue-600 dark:text-purple-400">lohithnath</span>
+                </span>
               </span>
+
             </Link>
 
             {/* Desktop Nav */}
@@ -99,8 +102,11 @@ export const Header: React.FC = () => {
             to="/"
             className="text-lg font-bold text-foreground dark:text-white"
             onClick={() => setIsMobileMenuOpen(false)}
-          >
-            My Space
+          ><span className="text-sm sm:text-base lg:text-lg font-bold tracking-tight relative px-2 py-0.5 rounded-md bg-black/5 dark:bg-white/5 text-black dark:text-white">
+  ./dev/<span className="text-blue-600 dark:text-purple-400">lohithnath</span>
+</span>
+
+
           </Link>
           <button
             aria-label="Close menu"
