@@ -93,10 +93,30 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        fadeGlow: {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(40px) scale(0.98)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0) scale(1)",
+          },
+        },
+        glowOnHover: {
+          "0%": {
+            boxShadow: "0 0 0 rgba(255,255,255,0)",
+          },
+          "100%": {
+            boxShadow: "0 0 12px rgba(255,255,255,0.1)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        fadeGlow: "fadeGlow 0.4s ease-out",
+        glowOnHover: "glowOnHover 0.3s ease-in-out forwards",
       },
     },
     container: { center: true, padding: "2rem", screens: { "2xl": "1400px" } },

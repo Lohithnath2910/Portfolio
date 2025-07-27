@@ -16,7 +16,7 @@ export const Portfolio: React.FC = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 text-foreground dark:text-foreground">
       {/* About Me Section */}
-      <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 max-w-7xl">
+      <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 max-w-7xl pt-20 sm:pt-16">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
           <div className="order-2 lg:order-1 flex justify-center">
             {/* Developer SVG illustration */}
